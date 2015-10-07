@@ -10,6 +10,7 @@
             android:text="Понедельник"
             android:gravity="center_vertical"
             android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:background="@drawable/bgcolorselector"/>
 
         <LinearLayout
@@ -20,14 +21,17 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="Последнее занятие было"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Последнее занятие"
             android:gravity="bottom"
             android:background="@drawable/bgcolorselector"/>
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="29.01.2015"
+            android:gravity="center_horizontal"
             android:background="@drawable/bgcolorselector"/>
         </LinearLayout>
     </TableRow>
