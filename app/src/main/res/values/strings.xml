@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weight Monitor</string>
+    <string name="programs">Программы</string>
+    <string name="action_settings">Settings</string>
+    <string name="trainings">Тренировки</string>
+    <string name="body_measures">Замеры тела</string>
+    <string name="activities">Активность</string>
+    <string name="reference">Справочники</string>
+    <string name="settings">Настройки</string>
+    <string name="users_table_create">CREATE TABLE IF NOT EXISTS users(
+                    id INTEGER PRIMARY KEY,
+                    user_name VARCHAR(50),
+                    sex CHAR(1),
+                    dob CHAR(23),
+                    change_date CHAR(23))
+    </string>
+    <string name="title_activity_edit_personal_data">EditPersonalData</string>
+
+    <string name="hello_world">Hello world!</string>
+
+</resources>

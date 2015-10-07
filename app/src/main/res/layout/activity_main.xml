@@ -1,0 +1,108 @@
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context=".MainActivity">
+
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:clickable="false">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:text="@string/programs"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_bright"
+                android:background="@drawable/bgcolorselector"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="OnClickText"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:text="@string/trainings"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_bright"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bgcolorselector"
+                android:onClick="OnClickText"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:id="@+id/tableRow2">
+
+            <TextView
+                android:id="@+id/textView"
+                android:text="@string/body_measures"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="1"
+                android:background="@drawable/bgcolorselector"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:clickable="true"
+                android:gravity="center"
+                android:textColor="@android:color/holo_blue_bright"
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:text="@string/activities"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="1"
+                android:background="@drawable/bgcolorselector"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:clickable="true"
+                android:gravity="center"
+                android:textColor="@android:color/holo_blue_bright"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:id="@+id/tableRow3"
+            android:background="@color/material_blue_grey_900">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:text="@string/reference"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="1"
+                android:background="@drawable/bgcolorselector"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:clickable="true"
+                android:gravity="center"
+                android:textColor="@android:color/holo_blue_bright"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:text="@string/settings"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="1"
+                android:background="@drawable/bgcolorselector"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:clickable="true"
+                android:gravity="center"
+                android:textColor="@android:color/holo_blue_bright"/>
+        </TableRow>
+
+    </TableLayout>
+
+

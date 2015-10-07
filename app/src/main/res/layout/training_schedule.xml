@@ -1,0 +1,59 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Понедельник"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/bgcolorselector"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Последнее занятие было"
+            android:gravity="bottom"
+            android:background="@drawable/bgcolorselector"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="29.01.2015"
+            android:background="@drawable/bgcolorselector"/>
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:text="Среда"
+            android:background="@drawable/bgcolorselector"/>
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:text="Пятница"
+            android:background="@drawable/bgcolorselector"/>
+
+
+    </TableRow>
+
+</TableLayout>
